@@ -1,0 +1,85 @@
+span{background: blue;}
+        header,footer{
+  background:SpringGreen;
+  padding-bottom:50px;
+            margin-bottom: 10px;
+        }
+        
+#kolonki{
+  display:flex;
+}
+#kol{
+  flex:50%;
+  margin:20px;
+}
+main{
+  padding:15px;
+  background:Aquamarine;
+}
+#post{
+  background:white;
+  padding:10px;
+  border-radius:15px;
+  display:flex;
+}
+img{margin:15px;}
+        
+#menu{
+  position:relative;
+  display:block;
+  width:100%;
+  height:auto;
+  z-index:10;
+margin:100;
+    padding: 3px;
+}
+#menu ul{
+  position:relative;
+  display:block;
+  width:100%;
+  height:auto;
+  list-style:none;
+}
+#menu ul li{
+  position:relative;
+  display:block;
+  width:auto;
+  height:auto;
+  float:left;
+}
+#menu ul li a{
+  display:block;
+  padding:5px 15px 5px 15px;
+  font-size:16px;
+  text-decoration:none;
+  font-weight:bold;
+  background:DarkGreen;
+  color:white;
+}
+#menu ul li ul{
+  position:absolute;
+  width:200px;
+  display:none;
+}
+#menu ul li:hover ul{
+  display:block;
+}
+#menu ul li ul li{
+  float:none;
+}
+#menu ul li ul li a{
+  border-top:1px solid white;
+}
+#menu ul li:hover a{
+  background:GreenYellow;
+  color:DarkGreen;
+}
+#menu ul li ul li:hover a{
+  background:DarkGreen;
+  color:GreenYellow;
+}
+        .logo{float:left;}
+        h1{margin-bottom: 1px;}
+    
+        .img1{float:left;}
+        #m1{text-align: center;}
